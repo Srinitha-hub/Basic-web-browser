@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+           .namelist{
+            display: flex;
+            gap:20px;
+            /* Optional: Align items vertically in center */
+            
+           }
+           .item{
+            padding: 30px;
+            justify-content: space-between;
+            color:white;
+            font-weight:bold;
+            text-decoration:none;
+            font-size:20px;
+            cursor:pointer;
+           }
+       </style>
+      
+    </head>
+    <body>
+        <div class="namelist">
+            <span class="item" onclick="parent.loadPage('emptable.html')">Employee Data</span>
+            <span class="item" onclick="parent.loadPage('empRole.html')">Employee Roles</span>
+            <span class="item" onclick="parent.loadPage('contact.html')">Contact</span>
+            <span class="item" onclick="parent.loadPage('imgEmp.html')">Images</span>
+            <span class="item" onclick="parent.loadPage('feedback.html')">Feedback Form</span>    
+        </div>
+    </body>
+
+    
+</html>
